@@ -59,7 +59,7 @@ func (r *sayHelloResource) Read(ctx context.Context, req resource.ReadRequest, r
 	
 	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [READ] NAME: " + givenName.Name)
 
-	readResponse  := r.FlattenModel(r.client.GetName())
+	readResponse  := r.FlattenModel(givenName.Name)
 	resp.State.Set(ctx, &readResponse)
 }
 
