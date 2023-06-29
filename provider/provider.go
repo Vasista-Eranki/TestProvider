@@ -15,7 +15,7 @@ import (
 )
 
 type pfprovider struct{
-	client *client.HelloWorldClient
+	client *client.HelloWorldModel
 }
 
 
@@ -24,7 +24,8 @@ func (p *pfprovider) Metadata(_ context.Context, _ provider.MetadataRequest, res
 }
 
 func (p *pfprovider) Configure(ctx context.Context, req provider.ConfigureRequest, resp *provider.ConfigureResponse) {
-	cli := client.GetNewClient()
+	cli := client.GetNewModel()
+	print(cli.Name)
 	p.client = cli
 	resp.ResourceData = cli
 	resp.DataSourceData = cli

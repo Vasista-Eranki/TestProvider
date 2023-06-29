@@ -1,432 +1,73 @@
-2023-06-29T21:28:45.292+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:28:45.293+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:28:45.293+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:28:45.293+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:28:45.293+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:28:45.293+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:28:45.293+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:28:45.293+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:28:45.299+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:28:45.299+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:28:45.301+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:28:45.302+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:28:45.302+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:28:45.305+0530 [DEBUG] New state was assigned lineage "cc511d13-9e0c-5c08-9b1d-17769beef953"
-2023-06-29T21:28:45.305+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:28:45.305+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:28:45.306+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:28:45.306+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:28:45.307+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:28:45.308+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:29:02.490+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:29:02.491+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:29:02.491+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:29:02.491+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:29:02.491+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:29:02.491+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:29:02.491+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:29:02.491+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:29:02.497+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:29:02.498+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:29:02.498+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:29:02.499+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:29:02.499+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:29:02.502+0530 [DEBUG] New state was assigned lineage "1ad9cd90-9a93-976e-5dcd-f39785e3e6a3"
-2023-06-29T21:29:02.502+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:29:02.502+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:29:02.502+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:29:02.503+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:29:02.504+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:29:02.504+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:29:31.508+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:29:31.510+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:29:31.510+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:29:31.510+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:29:31.510+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:29:31.510+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:29:31.510+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:29:31.510+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:29:31.515+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:29:31.515+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:29:31.516+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:29:31.517+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:29:31.517+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:29:31.521+0530 [DEBUG] New state was assigned lineage "08911e69-20e0-ff97-bf75-d73f060354df"
-2023-06-29T21:29:31.521+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:29:31.521+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:29:31.521+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:29:31.521+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:29:31.522+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:29:31.523+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:29:49.327+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:29:49.328+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:29:49.328+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:29:49.328+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:29:49.328+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:29:49.328+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:29:49.328+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:29:49.328+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:29:49.334+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:29:49.334+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:29:49.335+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:29:49.336+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:29:49.336+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:29:49.341+0530 [DEBUG] New state was assigned lineage "19efcb00-43ee-240f-a52b-157fcf2f05e5"
-2023-06-29T21:29:49.341+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:29:49.341+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:29:49.341+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:29:49.341+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:29:49.344+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:29:49.344+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:31:37.512+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:31:37.513+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:31:37.513+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:31:37.513+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:31:37.513+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:31:37.513+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:31:37.513+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:31:37.513+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:31:37.519+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:31:37.519+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:31:37.520+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:31:37.520+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:31:37.520+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:31:37.523+0530 [DEBUG] New state was assigned lineage "d96965c8-26f4-5f23-3083-d4a2d46880ea"
-2023-06-29T21:31:37.523+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:31:37.523+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:31:37.523+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:31:37.524+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:31:37.525+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:31:37.525+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:33:07.217+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:33:07.218+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:33:07.218+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:33:07.218+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:33:07.218+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:33:07.218+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:33:07.218+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:33:07.218+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:33:07.224+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:33:07.226+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:33:07.227+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:33:07.228+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:33:07.229+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:33:07.234+0530 [DEBUG] New state was assigned lineage "981da458-ffeb-3619-9430-06036464ec57"
-2023-06-29T21:33:07.234+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:33:07.234+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:33:07.234+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:33:07.235+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:33:07.236+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:33:07.236+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:38:15.921+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:38:15.922+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:38:15.922+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:38:15.922+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:38:15.922+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:38:15.922+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:38:15.922+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:38:15.922+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:38:15.928+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:38:15.931+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:38:15.931+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:38:15.934+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:38:15.934+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:38:15.937+0530 [DEBUG] New state was assigned lineage "bd572aba-1b1c-c2b3-09cf-f1eeefd0731b"
-2023-06-29T21:38:15.938+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:38:15.938+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:38:15.938+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:38:15.938+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:38:15.939+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:38:15.940+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:40:51.469+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:40:51.470+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:40:51.470+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:40:51.470+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:40:51.470+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:40:51.470+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:40:51.470+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:40:51.470+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "state"}
-2023-06-29T21:40:51.496+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:40:51.498+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:40:51.499+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:40:51.502+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:40:51.502+0530 [INFO]  CLI command args: []string{"state"}
-2023-06-29T21:40:57.182+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:40:57.183+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:40:57.183+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:40:57.183+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:40:57.183+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:40:57.183+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:40:57.183+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:40:57.183+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "state", "show"}
-2023-06-29T21:40:57.190+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:40:57.190+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:40:57.191+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:40:57.192+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:40:57.193+0530 [INFO]  CLI command args: []string{"state", "show"}
-2023-06-29T21:41:07.332+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:41:07.333+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:41:07.333+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:41:07.333+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:41:07.333+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:41:07.333+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:41:07.333+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:41:07.333+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "init", "-upgrade"}
-2023-06-29T21:41:07.338+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:41:07.339+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:41:07.340+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:41:07.341+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:41:07.341+0530 [INFO]  CLI command args: []string{"init", "-upgrade"}
-2023-06-29T21:41:07.347+0530 [DEBUG] New state was assigned lineage "667843cf-fd6b-0f07-5b21-4c5d02fba9af"
-2023-06-29T21:41:07.347+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:41:07.347+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:41:07.348+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:41:07.348+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:41:07.349+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:41:07.350+0530 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
-2023-06-29T21:41:08.218+0530 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/helloworld/versions
-2023-06-29T21:41:08.529+0530 [DEBUG] GET https://registry.terraform.io/v1/providers/-/helloworld/versions
-2023-06-29T21:44:02.331+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:44:02.332+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:44:02.332+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:44:02.332+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:44:02.332+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:44:02.332+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:44:02.332+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:44:02.332+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:44:02.337+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:44:02.337+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:44:02.337+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:44:02.338+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:44:02.338+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:44:02.341+0530 [DEBUG] New state was assigned lineage "3ae34065-207d-09d6-098f-1a34e8ff8187"
-2023-06-29T21:44:02.341+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:44:02.341+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:44:02.341+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:44:02.341+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:44:02.342+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:44:02.343+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:44:05.093+0530 [DEBUG] Config.VerifyDependencySelections: skipping app.terraform.io/hexagon-ppm/helloworld because it's overridden by a special configuration setting
-2023-06-29T21:44:05.093+0530 [DEBUG] created provider logger: level=debug
-2023-06-29T21:44:05.093+0530 [INFO]  provider: configuring client automatic mTLS
-2023-06-29T21:44:05.108+0530 [DEBUG] provider: starting plugin: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe args=[C:/Users/vseranki/gobin/terraform-provider-helloworld.exe]
-2023-06-29T21:44:05.569+0530 [DEBUG] provider: plugin started: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=61416
-2023-06-29T21:44:05.569+0530 [DEBUG] provider: waiting for RPC address: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe
-2023-06-29T21:44:05.845+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T21:44:05.844+0530
-2023-06-29T21:44:05.860+0530 [DEBUG] provider: using plugin: version=6
-2023-06-29T21:44:05.860+0530 [DEBUG] provider.terraform-provider-helloworld.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2023-06-29T21:44:05.860+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Metadata: tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:39 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Metadata: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:41 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_rpc=GetProviderSchema timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Schema: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:286 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Schema: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:288 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_rpc=GetProviderSchema timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Resources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:363 timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Resources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:365 timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Schema method: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:466 @module=sdk.framework tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_resource_type=helloworld_say_hello tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_rpc=GetProviderSchema timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Resource Schema method: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_resource_type=helloworld_say_hello @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:468 tf_rpc=GetProviderSchema timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider DataSources: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:145 @module=sdk.framework timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider DataSources: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=9e396f9b-b142-ae68-55fc-429728f6aad1 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:147 @module=sdk.framework timestamp=2023-06-29T21:44:06.545+0530
-2023-06-29T21:44:06.545+0530 [DEBUG] No provider meta schema returned
-2023-06-29T21:44:06.546+0530 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
-2023-06-29T21:44:06.566+0530 [DEBUG] provider: plugin process exited: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=61416
-2023-06-29T21:44:06.566+0530 [DEBUG] provider: plugin exited
-2023-06-29T21:44:06.566+0530 [DEBUG] Building and walking validate graph
-2023-06-29T21:44:06.567+0530 [DEBUG] pruning unused provider["app.terraform.io/hexagon-ppm/helloworld"]
-2023-06-29T21:44:06.567+0530 [DEBUG] Starting graph walk: walkValidate
-2023-06-29T21:44:06.567+0530 [INFO]  backend/local: plan calling Plan
-2023-06-29T21:44:06.567+0530 [DEBUG] Building and walking plan graph for NormalMode
-2023-06-29T21:44:06.567+0530 [DEBUG] pruning unused provider["app.terraform.io/hexagon-ppm/helloworld"]
-2023-06-29T21:44:06.567+0530 [DEBUG] Starting graph walk: walkPlan
-2023-06-29T21:44:06.567+0530 [DEBUG] no planned changes, skipping apply graph check
-2023-06-29T21:44:06.567+0530 [INFO]  backend/local: plan operation completed
-2023-06-29T21:44:26.428+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:44:26.430+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:44:26.430+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:44:26.430+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:44:26.430+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:44:26.430+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:44:26.430+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:44:26.430+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:44:26.436+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:44:26.436+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:44:26.437+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:44:26.438+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:44:26.438+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:44:26.441+0530 [DEBUG] New state was assigned lineage "c954e946-7fe8-00d7-af90-9678d2c39039"
-2023-06-29T21:44:26.441+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:44:26.441+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:44:26.442+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:44:26.442+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:44:26.444+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:44:26.444+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:44:26.462+0530 [DEBUG] Config.VerifyDependencySelections: skipping app.terraform.io/hexagon-ppm/helloworld because it's overridden by a special configuration setting
-2023-06-29T21:44:26.462+0530 [DEBUG] created provider logger: level=debug
-2023-06-29T21:44:26.462+0530 [INFO]  provider: configuring client automatic mTLS
-2023-06-29T21:44:26.477+0530 [DEBUG] provider: starting plugin: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe args=[C:/Users/vseranki/gobin/terraform-provider-helloworld.exe]
-2023-06-29T21:44:26.527+0530 [DEBUG] provider: plugin started: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=72812
-2023-06-29T21:44:26.527+0530 [DEBUG] provider: waiting for RPC address: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe
-2023-06-29T21:44:26.832+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T21:44:26.830+0530
-2023-06-29T21:44:26.847+0530 [DEBUG] provider: using plugin: version=6
-2023-06-29T21:44:26.847+0530 [DEBUG] provider.terraform-provider-helloworld.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2023-06-29T21:44:26.847+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Metadata: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:39 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 timestamp=2023-06-29T21:44:27.622+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Metadata: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:41 timestamp=2023-06-29T21:44:27.622+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Schema: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:286 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Schema: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:288 @module=sdk.framework timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Resources: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:363 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Resources: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:365 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 tf_rpc=GetProviderSchema timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Schema method: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:466 tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_resource_type=helloworld_say_hello tf_rpc=GetProviderSchema tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 @module=sdk.framework timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Resource Schema method: tf_rpc=GetProviderSchema @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 tf_resource_type=helloworld_say_hello @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:468 timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider DataSources: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:145 @module=sdk.framework timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider DataSources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=202834f9-49e7-b04b-5cb1-19de9bf4b454 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:147 timestamp=2023-06-29T21:44:27.623+0530
-2023-06-29T21:44:27.623+0530 [DEBUG] No provider meta schema returned
-2023-06-29T21:44:27.624+0530 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
-2023-06-29T21:44:27.645+0530 [DEBUG] provider: plugin process exited: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=72812
-2023-06-29T21:44:27.645+0530 [DEBUG] provider: plugin exited
-2023-06-29T21:44:27.645+0530 [DEBUG] Building and walking validate graph
-2023-06-29T21:44:27.645+0530 [DEBUG] ProviderTransformer: "helloworld_say_hello.name" (*terraform.NodeValidatableResource) needs provider["app.terraform.io/hexagon-ppm/helloworld"]
-2023-06-29T21:44:27.645+0530 [DEBUG] ReferenceTransformer: "helloworld_say_hello.name" references: []
-2023-06-29T21:44:27.645+0530 [DEBUG] ReferenceTransformer: "provider[\"app.terraform.io/hexagon-ppm/helloworld\"]" references: []
-2023-06-29T21:44:27.645+0530 [DEBUG] Starting graph walk: walkValidate
-2023-06-29T21:44:27.646+0530 [DEBUG] created provider logger: level=debug
-2023-06-29T21:44:27.646+0530 [INFO]  provider: configuring client automatic mTLS
-2023-06-29T21:44:27.652+0530 [DEBUG] provider: starting plugin: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe args=[C:/Users/vseranki/gobin/terraform-provider-helloworld.exe]
-2023-06-29T21:44:27.715+0530 [DEBUG] provider: plugin started: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=40032
-2023-06-29T21:44:27.715+0530 [DEBUG] provider: waiting for RPC address: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe
-2023-06-29T21:44:27.998+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T21:44:27.996+0530
-2023-06-29T21:44:28.013+0530 [DEBUG] provider.terraform-provider-helloworld.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2023-06-29T21:44:28.012+0530
-2023-06-29T21:44:28.013+0530 [DEBUG] provider: using plugin: version=6
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Metadata: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:39 timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Metadata: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:41 timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Schema: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:286 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_rpc=GetProviderSchema timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Schema: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:288 @module=sdk.framework timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Resources: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:363 @module=sdk.framework timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Resources: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:365 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Schema method: tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_resource_type=helloworld_say_hello @module=sdk.framework tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:466 tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Resource Schema method: @module=sdk.framework tf_resource_type=helloworld_say_hello tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:468 tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider DataSources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:145 timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.023+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider DataSources: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:147 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a7291faa-aae8-0f2b-2d24-c50babc7bad2 tf_rpc=GetProviderSchema timestamp=2023-06-29T21:44:28.023+0530
-2023-06-29T21:44:28.024+0530 [DEBUG] No provider meta schema returned
-2023-06-29T21:44:28.024+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Schema method: tf_req_id=a94165e7-5efa-86ea-689f-49baa0f94a88 tf_rpc=ValidateResourceConfig @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:428 tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_resource_type=helloworld_say_hello @module=sdk.framework timestamp=2023-06-29T21:44:28.024+0530
-2023-06-29T21:44:28.024+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Resource Schema method: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:430 tf_rpc=ValidateResourceConfig @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a94165e7-5efa-86ea-689f-49baa0f94a88 tf_resource_type=helloworld_say_hello timestamp=2023-06-29T21:44:28.024+0530
-2023-06-29T21:44:28.024+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Configure: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=a94165e7-5efa-86ea-689f-49baa0f94a88 tf_resource_type=helloworld_say_hello tf_rpc=ValidateResourceConfig @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_validateresourceconfig.go:42 @module=sdk.framework timestamp=2023-06-29T21:44:28.024+0530
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: panic: interface conversion: interface {} is nil, not *client.HelloWorldClient
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: goroutine 40 [running]:
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: terraform-provider-helloworld/sayhello.(*sayHelloResource).Configure(0x12c7670?, {0xc000425ce0?, 0x11c6012?}, {{0x0?, 0x0?}}, 0x2b?)
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/Desktop/TestProvider/sayhello/SayHelloResource.go:32 +0x5e
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-framework/internal/fwserver.(*Server).ValidateResourceConfig(0xc0000eb4a0, {0x12c7670, 0xc000425ce0}, 0xc000412798, 0xc0003ab660)
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_validateresourceconfig.go:43 +0x185
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-framework/internal/proto6server.(*Server).ValidateResourceConfig(0xc0000eb4a0, {0x12c7670?, 0xc000425b90?}, 0xc0004126d8)
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/proto6server/server_validateresourceconfig.go:47 +0x48a
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-go/tfprotov6/tf6server.(*server).ValidateResourceConfig(0xc0001c05a0, {0x12c7670?, 0xc000425020?}, 0xc0004443c0)
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.17.0/tfprotov6/tf6server/server.go:689 +0x2e3
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-go/tfprotov6/internal/tfplugin6._Provider_ValidateResourceConfig_Handler({0x119d420?, 0xc0001c05a0}, {0x12c7670, 0xc000425020}, 0xc000434930, 0x0)
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.17.0/tfprotov6/internal/tfplugin6/tfplugin6_grpc.pb.go:314 +0x170
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: google.golang.org/grpc.(*Server).processUnaryRPC(0xc0001bc1e0, {0x12cb938, 0xc000404340}, 0xc00050a240, 0xc00030c750, 0x1706d30, 0x0)
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:1337 +0xdf3
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: google.golang.org/grpc.(*Server).handleStream(0xc0001bc1e0, {0x12cb938, 0xc000404340}, 0xc00050a240, 0x0)
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:1714 +0xa36
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: google.golang.org/grpc.(*Server).serveStreams.func1.1()
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:959 +0x98
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: created by google.golang.org/grpc.(*Server).serveStreams.func1
-2023-06-29T21:44:28.028+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:957 +0x18c
-2023-06-29T21:44:28.029+0530 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: read tcp 127.0.0.1:63803->127.0.0.1:10000: wsarecv: An existing connection was forcibly closed by the remote host."
-2023-06-29T21:44:28.029+0530 [ERROR] plugin6.(*GRPCProvider).ValidateResourceConfig: error="rpc error: code = Unavailable desc = error reading from server: read tcp 127.0.0.1:63803->127.0.0.1:10000: wsarecv: An existing connection was forcibly closed by the remote host."
-2023-06-29T21:44:28.029+0530 [ERROR] vertex "helloworld_say_hello.name" error: Plugin did not respond
-2023-06-29T21:44:28.046+0530 [DEBUG] provider: plugin process exited: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=40032 error="exit status 2"
-2023-06-29T21:44:28.046+0530 [DEBUG] provider: plugin exited
-2023-06-29T21:46:23.121+0530 [INFO]  Terraform version: 1.3.4
-2023-06-29T21:46:23.122+0530 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
-2023-06-29T21:46:23.122+0530 [DEBUG] using github.com/hashicorp/hcl/v2 v2.14.1
-2023-06-29T21:46:23.122+0530 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
-2023-06-29T21:46:23.122+0530 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
-2023-06-29T21:46:23.122+0530 [DEBUG] using github.com/zclconf/go-cty v1.12.0
-2023-06-29T21:46:23.122+0530 [INFO]  Go runtime version: go1.19.3
-2023-06-29T21:46:23.122+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
-2023-06-29T21:46:23.134+0530 [DEBUG] Attempting to open CLI config file: C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:46:23.136+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
-2023-06-29T21:46:23.138+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
-2023-06-29T21:46:23.141+0530 [DEBUG] Explicit provider installation configuration is set
-2023-06-29T21:46:23.141+0530 [INFO]  CLI command args: []string{"plan"}
-2023-06-29T21:46:23.148+0530 [DEBUG] New state was assigned lineage "b28d3a73-b245-54aa-44f2-291b2c7b6271"
-2023-06-29T21:46:23.149+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:46:23.149+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden to load from C:\Users\vseranki\gobin
-2023-06-29T21:46:23.150+0530 [DEBUG] checking for provisioner in "."
-2023-06-29T21:46:23.150+0530 [DEBUG] checking for provisioner in "C:\\terraform"
-2023-06-29T21:46:23.152+0530 [DEBUG] Provider app.terraform.io/hexagon-ppm/helloworld is overridden by dev_overrides
-2023-06-29T21:46:23.153+0530 [INFO]  backend/local: starting Plan operation
-2023-06-29T21:46:25.857+0530 [DEBUG] Config.VerifyDependencySelections: skipping app.terraform.io/hexagon-ppm/helloworld because it's overridden by a special configuration setting
-2023-06-29T21:46:25.858+0530 [DEBUG] created provider logger: level=debug
-2023-06-29T21:46:25.858+0530 [INFO]  provider: configuring client automatic mTLS
-2023-06-29T21:46:25.874+0530 [DEBUG] provider: starting plugin: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe args=[C:/Users/vseranki/gobin/terraform-provider-helloworld.exe]
-2023-06-29T21:46:25.946+0530 [DEBUG] provider: plugin started: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=48964
-2023-06-29T21:46:25.946+0530 [DEBUG] provider: waiting for RPC address: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe
-2023-06-29T21:46:26.329+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T21:46:26.327+0530
-2023-06-29T21:46:26.344+0530 [DEBUG] provider: using plugin: version=6
-2023-06-29T21:46:26.344+0530 [DEBUG] provider.terraform-provider-helloworld.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2023-06-29T21:46:26.344+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Metadata: @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:39 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e tf_rpc=GetProviderSchema timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Metadata: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:41 timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Schema: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:286 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Schema: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:288 timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Resources: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:363 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Resources: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:365 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Schema method: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e tf_resource_type=helloworld_say_hello @module=sdk.framework tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:466 timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Resource Schema method: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:468 @module=sdk.framework tf_resource_type=helloworld_say_hello timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider DataSources: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:145 @module=sdk.framework timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider DataSources: tf_req_id=18de2d97-ce3f-3210-dca9-5a77b0c50d3e tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:147 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld timestamp=2023-06-29T21:46:27.471+0530
-2023-06-29T21:46:27.471+0530 [DEBUG] No provider meta schema returned
-2023-06-29T21:46:27.472+0530 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
-2023-06-29T21:46:27.487+0530 [DEBUG] provider: plugin process exited: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=48964
-2023-06-29T21:46:27.487+0530 [DEBUG] provider: plugin exited
-2023-06-29T21:46:27.487+0530 [DEBUG] Building and walking validate graph
-2023-06-29T21:46:27.488+0530 [DEBUG] ProviderTransformer: "helloworld_say_hello.name" (*terraform.NodeValidatableResource) needs provider["app.terraform.io/hexagon-ppm/helloworld"]
-2023-06-29T21:46:27.488+0530 [DEBUG] ReferenceTransformer: "helloworld_say_hello.name" references: []
-2023-06-29T21:46:27.488+0530 [DEBUG] ReferenceTransformer: "provider[\"app.terraform.io/hexagon-ppm/helloworld\"]" references: []
-2023-06-29T21:46:27.488+0530 [DEBUG] Starting graph walk: walkValidate
-2023-06-29T21:46:27.488+0530 [DEBUG] created provider logger: level=debug
-2023-06-29T21:46:27.488+0530 [INFO]  provider: configuring client automatic mTLS
-2023-06-29T21:46:27.494+0530 [DEBUG] provider: starting plugin: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe args=[C:/Users/vseranki/gobin/terraform-provider-helloworld.exe]
-2023-06-29T21:46:27.573+0530 [DEBUG] provider: plugin started: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=97760
-2023-06-29T21:46:27.573+0530 [DEBUG] provider: waiting for RPC address: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe
-2023-06-29T21:46:27.958+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T21:46:27.956+0530
-2023-06-29T21:46:27.974+0530 [DEBUG] provider.terraform-provider-helloworld.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2023-06-29T21:46:27.974+0530
-2023-06-29T21:46:27.974+0530 [DEBUG] provider: using plugin: version=6
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Metadata: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:39 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Metadata: tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_getproviderschema.go:41 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Schema: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:286 @module=sdk.framework timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Schema: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:288 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider Resources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:363 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider Resources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:365 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Schema method: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_resource_type=helloworld_say_hello @module=sdk.framework tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:466 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Resource Schema method: tf_resource_type=helloworld_say_hello tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:468 tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 @module=sdk.framework timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Provider DataSources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:145 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.986+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Provider DataSources: @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_req_id=be2f05ea-a47a-bd8c-6294-4e64a06b5a02 tf_rpc=GetProviderSchema @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:147 timestamp=2023-06-29T21:46:27.986+0530
-2023-06-29T21:46:27.987+0530 [DEBUG] No provider meta schema returned
-2023-06-29T21:46:27.987+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Schema method: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_rpc=ValidateResourceConfig @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:428 @module=sdk.framework tf_req_id=e2c06bb0-e86c-2026-15da-ee10640fd7ee tf_resource_type=helloworld_say_hello timestamp=2023-06-29T21:46:27.987+0530
-2023-06-29T21:46:27.987+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Called provider defined Resource Schema method: tf_req_id=e2c06bb0-e86c-2026-15da-ee10640fd7ee tf_resource_type=helloworld_say_hello tf_rpc=ValidateResourceConfig @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server.go:430 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld timestamp=2023-06-29T21:46:27.987+0530
-2023-06-29T21:46:27.987+0530 [DEBUG] provider.terraform-provider-helloworld.exe: Calling provider defined Resource Configure: tf_req_id=e2c06bb0-e86c-2026-15da-ee10640fd7ee tf_resource_type=helloworld_say_hello @caller=C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_validateresourceconfig.go:42 @module=sdk.framework tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_rpc=ValidateResourceConfig timestamp=2023-06-29T21:46:27.987+0530
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: panic: interface conversion: interface {} is nil, not *client.HelloWorldClient
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: goroutine 82 [running]:
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: terraform-provider-helloworld/sayhello.(*sayHelloResource).Configure(0x12c7670?, {0xc00038b320?, 0x11c6012?}, {{0x0?, 0x0?}}, 0x2b?)
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/Desktop/TestProvider/sayhello/SayHelloResource.go:32 +0x5e
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-framework/internal/fwserver.(*Server).ValidateResourceConfig(0xc00014c160, {0x12c7670, 0xc00038b320}, 0xc000420360, 0xc000495660)
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/fwserver/server_validateresourceconfig.go:43 +0x185
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-framework/internal/proto6server.(*Server).ValidateResourceConfig(0xc00014c160, {0x12c7670?, 0xc00038b1d0?}, 0xc0004202a0)
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-framework@v1.3.2/internal/proto6server/server_validateresourceconfig.go:47 +0x48a
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-go/tfprotov6/tf6server.(*server).ValidateResourceConfig(0xc0002e80a0, {0x12c7670?, 0xc00038a210?}, 0xc000410140)
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.17.0/tfprotov6/tf6server/server.go:689 +0x2e3
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: github.com/hashicorp/terraform-plugin-go/tfprotov6/internal/tfplugin6._Provider_ValidateResourceConfig_Handler({0x119d420?, 0xc0002e80a0}, {0x12c7670, 0xc00038a210}, 0xc0003c2000, 0x0)
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/github.com/hashicorp/terraform-plugin-go@v0.17.0/tfprotov6/internal/tfplugin6/tfplugin6_grpc.pb.go:314 +0x170
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: google.golang.org/grpc.(*Server).processUnaryRPC(0xc00030a000, {0x12cb938, 0xc00038e340}, 0xc000428120, 0xc00010dd10, 0x1706d30, 0x0)
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:1337 +0xdf3
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: google.golang.org/grpc.(*Server).handleStream(0xc00030a000, {0x12cb938, 0xc00038e340}, 0xc000428120, 0x0)
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:1714 +0xa36
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: google.golang.org/grpc.(*Server).serveStreams.func1.1()
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:959 +0x98
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: created by google.golang.org/grpc.(*Server).serveStreams.func1
-2023-06-29T21:46:27.990+0530 [DEBUG] provider.terraform-provider-helloworld.exe: 	C:/Users/vseranki/go/pkg/mod/google.golang.org/grpc@v1.56.1/server.go:957 +0x18c
-2023-06-29T21:46:27.991+0530 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: read tcp 127.0.0.1:63833->127.0.0.1:10000: wsarecv: An existing connection was forcibly closed by the remote host."
-2023-06-29T21:46:27.991+0530 [ERROR] plugin6.(*GRPCProvider).ValidateResourceConfig: error="rpc error: code = Unavailable desc = error reading from server: read tcp 127.0.0.1:63833->127.0.0.1:10000: wsarecv: An existing connection was forcibly closed by the remote host."
-2023-06-29T21:46:27.991+0530 [ERROR] vertex "helloworld_say_hello.name" error: Plugin did not respond
-2023-06-29T21:46:27.998+0530 [DEBUG] provider: plugin process exited: path=C:/Users/vseranki/gobin/terraform-provider-helloworld.exe pid=97760 error="exit status 2"
-2023-06-29T21:46:27.998+0530 [DEBUG] provider: plugin exited
+2023-06-29T23:39:36.300+0530 [INFO]  Terraform version: 1.3.4
+2023-06-29T23:39:36.301+0530 [INFO]  Go runtime version: go1.19.3
+2023-06-29T23:39:36.301+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
+2023-06-29T23:39:36.309+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
+2023-06-29T23:39:36.309+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-29T23:39:36.312+0530 [INFO]  CLI command args: []string{"plan"}
+2023-06-29T23:39:36.321+0530 [INFO]  backend/local: starting Plan operation
+2023-06-29T23:39:39.079+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:39:39.817+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:39:39.815+0530
+2023-06-29T23:39:40.589+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:39:40.861+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:39:40.859+0530
+2023-06-29T23:39:40.899+0530 [INFO]  backend/local: plan calling Plan
+2023-06-29T23:39:40.900+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:39:41.272+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:39:41.270+0530
+2023-06-29T23:39:41.318+0530 [INFO]  backend/local: plan operation completed
+2023-06-29T23:40:04.712+0530 [INFO]  Terraform version: 1.3.4
+2023-06-29T23:40:04.713+0530 [INFO]  Go runtime version: go1.19.3
+2023-06-29T23:40:04.713+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "apply", "--auto-approve"}
+2023-06-29T23:40:04.720+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
+2023-06-29T23:40:04.720+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-29T23:40:04.722+0530 [INFO]  CLI command args: []string{"apply", "--auto-approve"}
+2023-06-29T23:40:04.728+0530 [INFO]  backend/local: starting Apply operation
+2023-06-29T23:40:04.747+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:05.101+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:05.100+0530
+2023-06-29T23:40:06.048+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:06.506+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:06.504+0530
+2023-06-29T23:40:06.558+0530 [INFO]  backend/local: apply calling Plan
+2023-06-29T23:40:06.560+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:07.017+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:07.015+0530
+2023-06-29T23:40:07.057+0530 [INFO]  backend/local: apply calling Apply
+2023-06-29T23:40:07.058+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:07.523+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:07.520+0530
+2023-06-29T23:40:07.555+0530 [INFO]  Starting apply for helloworld_say_hello.name
+2023-06-29T23:40:07.555+0530 [INFO]  provider.terraform-provider-helloworld.exe: >>>>>>>>>>>>>>>>>>>NAME: Vasista: tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld @module=helloworld tf_req_id=b01bd983-f7ee-bda6-7148-36ec87dbc13e tf_resource_type=helloworld_say_hello tf_rpc=ApplyResourceChange @caller=C:/Users/vseranki/Desktop/TestProvider/sayhello/SayHelloResource.go:48 timestamp=2023-06-29T23:40:07.555+0530
+2023-06-29T23:40:13.177+0530 [INFO]  Terraform version: 1.3.4
+2023-06-29T23:40:13.178+0530 [INFO]  Go runtime version: go1.19.3
+2023-06-29T23:40:13.178+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "apply", "--auto-approve"}
+2023-06-29T23:40:13.184+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
+2023-06-29T23:40:13.184+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-29T23:40:13.186+0530 [INFO]  CLI command args: []string{"apply", "--auto-approve"}
+2023-06-29T23:40:13.192+0530 [INFO]  backend/local: starting Apply operation
+2023-06-29T23:40:13.212+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:13.574+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:13.572+0530
+2023-06-29T23:40:14.422+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:14.860+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:14.857+0530
+2023-06-29T23:40:14.900+0530 [INFO]  backend/local: apply calling Plan
+2023-06-29T23:40:14.902+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:15.290+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:15.288+0530
+2023-06-29T23:40:15.320+0530 [INFO]  provider.terraform-provider-helloworld.exe: >>>>>>>>>>>>>>>>>>> [READ] NAME: Vasista: @caller=C:/Users/vseranki/Desktop/TestProvider/sayhello/SayHelloResource.go:60 @module=helloworld tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld tf_rpc=ReadResource tf_req_id=4d009c29-3de5-32fb-bc39-856cae209770 tf_resource_type=helloworld_say_hello timestamp=2023-06-29T23:40:15.319+0530
+2023-06-29T23:40:15.320+0530 [WARN]  Provider "app.terraform.io/hexagon-ppm/helloworld" produced an unexpected new value for helloworld_say_hello.name during refresh.
+      - .name: was cty.StringVal("Vasista"), but now cty.StringVal("")
+2023-06-29T23:40:15.339+0530 [INFO]  backend/local: apply calling Apply
+2023-06-29T23:40:15.340+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:40:15.715+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:40:15.714+0530
+2023-06-29T23:40:15.746+0530 [INFO]  Starting apply for helloworld_say_hello.name
+2023-06-29T23:41:07.648+0530 [INFO]  Terraform version: 1.3.4
+2023-06-29T23:41:07.649+0530 [INFO]  Go runtime version: go1.19.3
+2023-06-29T23:41:07.649+0530 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
+2023-06-29T23:41:07.656+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.rc
+2023-06-29T23:41:07.657+0530 [INFO]  Loading CLI configuration from C:\Users\vseranki\AppData\Roaming\terraform.d\credentials.tfrc.json
+2023-06-29T23:41:07.658+0530 [INFO]  CLI command args: []string{"plan"}
+2023-06-29T23:41:07.663+0530 [INFO]  backend/local: starting Plan operation
+2023-06-29T23:41:10.390+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:41:10.800+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:41:10.797+0530
+2023-06-29T23:41:11.691+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:41:12.065+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:41:12.064+0530
+2023-06-29T23:41:12.109+0530 [INFO]  backend/local: plan calling Plan
+2023-06-29T23:41:12.111+0530 [INFO]  provider: configuring client automatic mTLS
+2023-06-29T23:41:12.465+0530 [INFO]  provider.terraform-provider-helloworld.exe: configuring server automatic mTLS: timestamp=2023-06-29T23:41:12.463+0530
+2023-06-29T23:41:12.495+0530 [INFO]  provider.terraform-provider-helloworld.exe: >>>>>>>>>>>>>>>>>>> [READ] NAME: Vasista: tf_req_id=4fa9b5d4-8c8c-7e19-2684-e3dd60cad695 tf_provider_addr=app.terraform.io/Hexagon-PPM/helloworld @module=helloworld tf_resource_type=helloworld_say_hello tf_rpc=ReadResource @caller=C:/Users/vseranki/Desktop/TestProvider/sayhello/SayHelloResource.go:60 timestamp=2023-06-29T23:41:12.495+0530
+2023-06-29T23:41:12.495+0530 [WARN]  Provider "app.terraform.io/hexagon-ppm/helloworld" produced an unexpected new value for helloworld_say_hello.name during refresh.
+      - .name: was cty.StringVal("Vasista"), but now cty.StringVal("")
+2023-06-29T23:41:12.515+0530 [INFO]  backend/local: plan operation completed
