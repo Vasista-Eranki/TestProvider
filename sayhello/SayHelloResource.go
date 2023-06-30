@@ -20,6 +20,7 @@ func NewSayHelloResource() resource.Resource {
 }
 
 func (*sayHelloResource) Schema(ctx context.Context, request resource.SchemaRequest, response *resource.SchemaResponse) {
+	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [SCHEMA] SayHelloResource")
 	response.Schema = schema.Schema{
 		Attributes: map[string]schema.Attribute{
 			"name" : schema.StringAttribute{
@@ -31,6 +32,7 @@ func (*sayHelloResource) Schema(ctx context.Context, request resource.SchemaRequ
 }
 
 func (r *sayHelloResource) Configure(ctx context.Context, req resource.ConfigureRequest, resp *resource.ConfigureResponse) {
+	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [CONFIGURE] SayHelloResource")
 	if req.ProviderData == nil {
 		return
 	}
@@ -42,6 +44,7 @@ func (r *sayHelloResource) Metadata(_ context.Context, req resource.MetadataRequ
 }
 
 func (r *sayHelloResource) Create(ctx context.Context, req resource.CreateRequest, resp *resource.CreateResponse) {
+	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [CREATE] SayHelloResource")
 	//Read the existing data from plan
 	var givenName HelloWorldStruct
 	req.Plan.Get(ctx, &givenName)
@@ -54,6 +57,7 @@ func (r *sayHelloResource) Create(ctx context.Context, req resource.CreateReques
 }
 
 func (r *sayHelloResource) Read(ctx context.Context, req resource.ReadRequest, resp *resource.ReadResponse) {
+	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [READ] SayHelloResource")
 	givenName := HelloWorldStruct{}
 	req.State.Get(ctx, &givenName)
 	
@@ -65,6 +69,7 @@ func (r *sayHelloResource) Read(ctx context.Context, req resource.ReadRequest, r
 
 func (r *sayHelloResource) Update(ctx context.Context, req resource.UpdateRequest, resp *resource.UpdateResponse) {
 	//Read the existing data from plan
+	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [UPDATE] SayHelloResource")
 	var givenName HelloWorldStruct
 	req.Plan.Get(ctx, &givenName)
 
@@ -77,6 +82,7 @@ func (r *sayHelloResource) Update(ctx context.Context, req resource.UpdateReques
 }
 
 func (r *sayHelloResource) Delete(ctx context.Context, req resource.DeleteRequest, resp *resource.DeleteResponse) {
+	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [DELETE] SayHelloResource")
 	r.client.RemoveName()
 	resp.State.RemoveResource(ctx)
 }

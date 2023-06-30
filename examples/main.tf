@@ -1,3 +1,3 @@
 resource "helloworld_say_hello" "name" {
-  name = "Vasista Intergraph"
+  name = "Vasista"
 }
