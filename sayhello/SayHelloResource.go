@@ -54,7 +54,7 @@ func (r *sayHelloResource) Create(ctx context.Context, req resource.CreateReques
 }
 
 func (r *sayHelloResource) Read(ctx context.Context, req resource.ReadRequest, resp *resource.ReadResponse) {
-	var givenName HelloWorldStruct
+	givenName := HelloWorldStruct{}
 	req.State.Get(ctx, &givenName)
 	
 	tflog.Info(ctx, ">>>>>>>>>>>>>>>>>>> [READ] NAME: " + givenName.Name)
